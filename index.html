@@ -1,11 +1,286 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Peacefull Health Corp</title>
-  </head>
-  <body>
-    <h1>Welcome to Peacefull Health Corp</h1>
-    <p>Our website is coming soon. Please check back later!</p>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peaceful Healthcare Corp | A Place to Grow. A Place to Heal.</title>
+    <meta name="description" content="Peaceful Healthcare Corp provides compassionate residential care in a warm, supportive environment for individuals needing specialized support.">
+<script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('http://static.photos/people/1200x630/300');
+background-size: cover;
+            background-position: center;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-24 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="https://huggingface.co/spaces/mellsmith24/harmony-haven-residential-care/resolve/main/images/WhatsApp Image 2025-10-01 at 20.49.58.jpeg" alt="Peaceful Healthcare Corp Logo" class="h-24">
+</a>
+</div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-teal-600 font-medium">Home</a>
+                        <a href="about.html" class="text-gray-600 hover:text-teal-600 font-medium">About</a>
+                        <a href="team.html" class="text-gray-600 hover:text-teal-600 font-medium">Our Team</a>
+                        <a href="services.html" class="text-teal-600 font-medium">Services</a>
+<a href="admissions.html" class="text-gray-600 hover:text-teal-600 font-medium">Admissions</a>
+                        <a href="contact.html" class="text-gray-600 hover:text-teal-600 font-medium">Contact</a>
+</div>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-teal-600">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-image h-screen flex items-center justify-center text-center text-white">
+        <div class="px-6 max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">A Place to Grow. A Place to Heal.</h1>
+            <p class="text-xl mb-8">At Peaceful Healthcare Corp, we provide compassionate residential care in a warm, supportive environment for individuals needing specialized support.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#" class="bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Learn More</a>
+                <a href="#" class="bg-white hover:bg-gray-100 text-teal-600 font-bold py-3 px-6 rounded-lg transition duration-300">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mission Statement -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Mission</h2>
+                <div class="max-w-3xl mx-auto">
+                <p class="text-xl text-gray-600">At Peaceful Healthcare Corp, we believe in dignity, growth, and community. Our mission is to provide a safe, nurturing home where individuals can thrive with personalized care and support.</p>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Comprehensive care designed to meet individual needs and promote wellbeing.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300">
+                    <img src="http://static.photos/people/640x360/201" alt="Happy residents together" class="w-full h-48 object-cover">
+<div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-teal-100 p-3 rounded-full mr-4">
+                                <i data-feather="home" class="text-teal-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800">Residential Care</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">24/7 supportive living in a warm, home-like environment with personalized care plans.</p>
+                        <a href="#" class="text-teal-600 font-medium flex items-center">Learn more <i data-feather="arrow-right" class="ml-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Preview -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Life at Harmony Haven</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">See the moments of joy, growth, and community at Peaceful Healthcare Corp.</p>
+</div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="overflow-hidden rounded-lg">
+                    <img src="http://static.photos/people/640x360/301" alt="Happy residents enjoying group activity" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+</div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="http://static.photos/people/640x360/302" alt="Staff assisting resident with care" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+</div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="http://static.photos/people/640x360/303" alt="Residents sharing meal together" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+</div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="http://static.photos/people/640x360/304" alt="Peaceful outdoor relaxation area" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+</div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="#" class="inline-flex items-center text-teal-600 font-bold">
+                    View Full Gallery
+                    <i data-feather="arrow-right" class="ml-2"></i>
+                </a>
+</div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300">
+                    <img src="http://static.photos/people/640x360/206" alt="Happy residents together" class="w-full h-48 object-cover">
+<div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-teal-100 p-3 rounded-full mr-4">
+                                <i data-feather="heart" class="text-teal-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800">Therapeutic Support</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Individual and group counseling, behavioral support, and emotional wellness programs.</p>
+                        <a href="#" class="text-teal-600 font-medium flex items-center">Learn more <i data-feather="arrow-right" class="ml-2"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300">
+                    <img src="http://static.photos/people/640x360/207" alt="Happy residents together" class="w-full h-48 object-cover">
+<div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-teal-100 p-3 rounded-full mr-4">
+                                <i data-feather="award" class="text-teal-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800">Life Skills Development</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Practical training in daily living, social skills, and community integration.</p>
+                        <a href="#" class="text-teal-600 font-medium flex items-center">Learn more <i data-feather="arrow-right" class="ml-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Success Stories</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Hear from families and residents about their Peaceful Healthcare Corp experience.</p>
+</div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 rounded-lg p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="http://static.photos/people/200x200/208" alt="Sarah J." class="w-full h-full object-cover">
+</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Sarah J.</h4>
+                            <p class="text-gray-600">Parent</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"The care and support my son receives at Harmony Haven has transformed his life. He's gained confidence, learned new skills, and made real friends. We're so grateful."</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 rounded-lg p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="http://static.photos/people/200x200/209" alt="Michael T." class="w-full h-full object-cover">
+</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Michael T.</h4>
+                            <p class="text-gray-600">Resident</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"Living at Harmony Haven has given me independence while knowing support is there when I need it. The staff treat me with respect and help me achieve my goals."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action -->
+    <style>
+        .logo-container img {
+            max-height: 60px;
+            width: auto;
+        }
+    </style>
+<section class="py-16 bg-teal-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to Learn More?</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Contact us today to schedule a tour or ask questions about our programs and admissions process.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#" class="bg-white hover:bg-gray-100 text-teal-600 font-bold py-3 px-6 rounded-lg transition duration-300">Contact Us</a>
+                <a href="#" class="bg-teal-700 hover:bg-teal-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Apply Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <!-- About -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Peaceful Healthcare Corp</h3>
+                    <p class="text-gray-400">Providing compassionate residential care in a warm, supportive environment.</p>
+</div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li>
+                    <a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="admissions.html" class="text-gray-400 hover:text-white">Admissions</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+</ul>
+                </div>
+                
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <address class="not-italic text-gray-400">
+                        <p>Calgary, Alberta</p>
+                        <p>Email: info@harmonyhaven.org</p>
+</address>
+                </div>
+                
+                <!-- Newsletter -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Stay Updated</h3>
+                    <p class="text-gray-400 mb-4">Subscribe to our newsletter for updates and news.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-lg text-gray-800 w-full">
+                        <button type="submit" class="bg-teal-600 hover:bg-teal-700 px-4 py-2 rounded-r-lg">
+                            <i data-feather="send"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 Peaceful Healthcare Corp. All rights reserved.</p>
+<div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white"><i data-feather="facebook"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i data-feather="twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i data-feather="instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i data-feather="linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
 </html>
